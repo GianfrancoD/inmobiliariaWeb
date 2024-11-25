@@ -7,13 +7,13 @@ export const Heros = () => {
         <img
           src="/placeholder.svg?height=1080&width=1920"
           alt="Ciudad"
-          className="object-cover"
+          className="object-cover w-full h-full"
         />
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-black bg-opacity-50" />
         <div className="absolute inset-0 flex flex-col items-center justify-center px-4">
           <h1 className="text-4xl md:text-6xl text-white font-bold text-center mb-6">
             Encuentra tu hogar{" "}
-            <span className="border-b-[1.3vh] border-blue-500">perfecto</span>
+            <span className="border-b-4 border-blue-500">perfecto</span>
           </h1>
           <p className="text-xl text-white text-center mb-8">
             Descubre las mejores propiedades en las mejores ubicaciones
