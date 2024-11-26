@@ -46,9 +46,9 @@ export const Footers = () => {
             <div>
               <h3 className="text-lg font-semibold mb-4">Contacto</h3>
               <ul className="space-y-2 text-gray-400">
-                <li>Calle Principal 123</li>
-                <li>Madrid, España</li>
-                <li>+34 91 123 45 67</li>
+                <li>Calle</li>
+                <li>Carabobo, Venezuela</li>
+                <li>+58 0412222222</li>
                 <li>info@inmopro.com</li>
               </ul>
             </div>
