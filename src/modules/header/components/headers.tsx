@@ -113,8 +113,13 @@ export const Headers = () => {
           <br />
           <hr />
           <br />
-          <button className="mt-2 w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">
-            Contactar
+          <button
+            className="mt-2 w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300"
+            onClick={sendmenssage}
+          >
+            <div className="flex justify-center gap-1 ">
+              <MessageCircle size={16} className="m-1" /> Contactar
+            </div>
           </button>
         </nav>
       </div>
